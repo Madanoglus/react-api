@@ -1,0 +1,188 @@
+{
+  "product": [
+    { 
+      "id": 1,
+      "catogoryId": "2",
+      "productName": "DANA ETİ" 
+    },
+    { 
+      "id": 2,
+      "catogoryId": "10",
+      "productName": "SÜT"
+    },
+    { 
+      "id": 3,
+      "catogoryId": "1",
+      "productName": "BALIK"
+    },
+    { 
+      "id": 4,
+      "catogoryId": "3",
+      "productName": "MAKARNA"
+    },
+    { 
+      "id": 5,
+      "catogoryId": "5",
+      "productName": "ZEYTİN"
+    },
+    { 
+      "id": 6,
+      "catogoryId": "2",
+      "productName": "KUZU ETİ"
+    },
+    { 
+      "id": 7,
+      "catogoryId": "5",
+      "productName": "SİYAH ZEYTİN"
+    },
+    { 
+      "id": 8,
+      "catogoryId": "5",
+      "productName": "YEŞİL ZEYTİN"
+    },
+    { 
+      "id": 9,
+      "catogoryId": "5",
+      "productName": "SALAMURA ZEYTİN"
+    },
+    { 
+      "id": 10,
+      "catogoryId": "6",
+      "productName": "İZMİR TULUM PEYNİRİ"
+    },
+    { 
+      "id": 11,
+      "catogoryId": "6",
+      "productName": "BERGAMA TULUM PEYNİRİ"
+    },
+    { 
+      "id": 12,
+      "catogoryId": "6",
+      "productName": "BALIKESİR EZİNE PEYNİRİ"
+    },
+    { 
+      "id": 13,
+      "catogoryId": "6",
+      "productName": "ULTRA LÜKS EZİNE PEYNİRİ"
+    },
+    { 
+      "id": 14,
+      "catogoryId": "7",
+      "productName": "TULUM LORU"
+    },
+    { 
+      "id": 15,
+      "catogoryId": "7",
+      "productName": "KAŞAR LORU"
+    },
+    { 
+      "id": 16,
+      "catogoryId": "4",
+      "productName": "FASULYE"
+    },
+    { 
+      "id": 17,
+      "catogoryId": "4",
+      "productName": "BARBUNYA"
+    },
+    { 
+      "id": 18,
+      "catogoryId": "3",
+      "productName": "ERİŞTE"
+    },
+    { 
+      "id": 19,
+      "catogoryId": "4",
+      "productName": "NOHUT"
+    },
+    { 
+      "id": 20,
+      "catogoryId": "8",
+      "productName": "ÇAM BALI"
+    },
+    { 
+      "id": 21,
+      "catogoryId": "8",
+      "productName": "ÇİÇEK BALI"
+    },
+    { 
+      "id": 22,
+      "catogoryId": "8",
+      "productName": "KARA KOVAN BALI"
+    },
+    { 
+      "id": 23,
+      "catogoryId": "9",
+      "productName": "VAN KAHVALTILIK TEREYAĞI"
+    },
+    { 
+      "id": 24,
+      "catogoryId": "9",
+      "productName": "ERZURUM AZ TUZLU TEREYAĞI"
+    },
+    { 
+      "id": 25,
+      "catogoryId": "9",
+      "productName": "TİRE NORMAL TURZU TEREYAĞI"
+    },
+    { 
+      "id": 26,
+      "catogoryId": "8",
+      "productName": "PETEK BAL"
+    }
+    
+
+  ],
+  "categories": [
+    { 
+      "id": 1,
+      "categoryName": "BALIK",
+      "seoUrl": "balık"
+    },
+    { 
+      "id": 2,
+      "categoryName": "ET",
+      "seoUrl": "et"
+    },
+    { 
+      "id": 3,
+      "categoryName": "UNLU MAMÜL",
+      "seoUrl": "unlu mamül"
+    },
+    { 
+      "id": 4,
+      "categoryName": "BAKLİYAT",
+      "seoUrl": "bakliyat"
+    },
+    { 
+      "id": 5,
+      "categoryName": "ZEYTİN",
+      "seoUrl": "zeytin"
+    },
+    { 
+      "id": 6,
+      "categoryName": "PEYNİR",
+      "seoUrl": "peynir"
+    },
+    { 
+      "id": 7,
+      "categoryName": "LOR",
+      "seoUrl": "lor"
+    },{ 
+      "id": 8,
+      "categoryName": "BAL",
+      "seoUrl": "bal"
+    },{ 
+      "id": 9,
+      "categoryName": "TEREYAĞI",
+      "seoUrl": "tereyağı"
+    },{ 
+      "id": 10,
+      "categoryName": "SÜT",
+      "seoUrl": "süt"
+    }
+
+
+  ]
+
+}
