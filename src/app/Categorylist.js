@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 
 class Categorylist extends Component {
   state = {
-    categories: [],
-    categoryList: '',
+    categories: []
   }
 
   componentDidMount() {
@@ -16,9 +15,7 @@ class Categorylist extends Component {
       .then((data) => this.setState({ categories: data }))
   }
 
-  changeCategoery = (category) => {
-    this.setState({ categoryList: category.categoryName })
-  }
+  
 
   render() {
     return (
@@ -27,7 +24,7 @@ class Categorylist extends Component {
         <div>
           {this.state.categories.map((category) => (
             <div
-              onClick={() => this.changeCategoery(category)}
+              onClick={() => this.props.changeCategoery(category)}
               className="categoriesItem"
               key={category.id}
             >
@@ -35,7 +32,7 @@ class Categorylist extends Component {
             </div>
           ))}
         </div>
-        <h3>{this.state.categoryList}</h3>
+        <h3>{this.props.categoryList}</h3>
       </div>
     )
   }
