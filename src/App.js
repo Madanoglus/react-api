@@ -9,6 +9,7 @@ class App extends Component {
   state = {
     product: [],
     categoryList: '',
+    cart: [],
   }
 
   changeCategoery = (category) => {
@@ -30,10 +31,16 @@ class App extends Component {
       .then((data) => this.setState({ product: data }))
   }
 
+  addToCart = (product) => {
+    let newCart = this.state.cart
+    newCart.push({ product: product, quantity: 1 })
+    this.setState({ cart: newCart })
+  }
+
   render() {
     return (
       <div className="App">
-        <Navi />
+        <Navi cart={this.state.cart} product={this.state.product} />
         <div className="context">
           <div className="ürünler">
             <Categorylist
@@ -47,6 +54,7 @@ class App extends Component {
             <Productlist
               categoryList={this.state.categoryList}
               product={this.state.product}
+              addToCart={this.addToCart}
             />
           </div>
         </div>

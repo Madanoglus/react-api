@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import '../App.css'
 
 class Productlist extends Component {
+  
   render() {
     return (
       <div>
@@ -17,11 +18,12 @@ class Productlist extends Component {
 
           {this.props.product.map((product) => (
             <div key={product.id}>
-              <tr className="başlik-list" >
+              <tr className="başlik-list">
                 <th className="başlik-sec">{product.id}</th>
                 <th className="first">{product.productName}</th>
                 <th className="başlik-sec">{product.id}</th>
                 <th className="başlik-sec">{product.id}</th>
+                <button onClick={() => this.props.addToCart(product)} className="button">add</button>
               </tr>
             </div>
           ))}
