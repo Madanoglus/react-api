@@ -1,5 +1,5 @@
 Bu web sitesi React kullanılarak inşa edilmiştir. Api'den gelen bilgileri kullanıcının hizmetine sunmaktadır. Add kısmından sepete ürün ekleyebildikleri ilk React uygulamamdır.
-## İnstal
+## Kurulum
 ```bach
 git clone https://github.com/Madanoglus/react-api.git
 cd react-api
